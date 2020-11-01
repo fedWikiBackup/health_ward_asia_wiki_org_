@@ -1,0 +1,408 @@
+{
+  "title": "Results by Theorem",
+  "story": [
+    {
+      "type": "paragraph",
+      "id": "ca89dfca3e0c0294",
+      "text": "We classify team health indicators by Woods' psudo-theorems conducting the experiment multiple times."
+    },
+    {
+      "type": "paragraph",
+      "id": "8419329497b501bc",
+      "text": "See [[Results as Radar Chart]]"
+    },
+    {
+      "type": "paragraph",
+      "id": "3755866c740e3912",
+      "text": "Subject 1, team health assessor (blue)"
+    },
+    {
+      "type": "method",
+      "id": "10328133e149f361",
+      "text": "11 S1 units have bounds\n8 S2 surprise continues\n14 S3 manage the risk\n5 S4 alignment and coordination\n2 S5 neighbors influence others\n9 S6 defines and searches space\n2 S7 two fundamental forms\n2 S8 no best or omniscient location\n5 S9 reveals and obscures properties\n4 S10 ongoing efforts are required"
+    },
+    {
+      "type": "paragraph",
+      "id": "4751ba8b7d4342b8",
+      "text": "Subject 2, reliability engineer (orange)"
+    },
+    {
+      "type": "method",
+      "id": "5568d37fbd4509d0",
+      "text": "1 S1 units have bounds\n5 S2 surprise continues\n5 S3 manage the risk\n5 S4 alignment and coordination\n11 S5 neighbors influence others\n11 S6 defines and searches space\n4 S7 two fundamental forms\n1 S8 no best or omniscient location\n14 S9 reveals and obscures properties\n9 S10 ongoing efforts are required"
+    },
+    {
+      "type": "paragraph",
+      "id": "ccad58120d0e5e2b",
+      "text": "Subject 3, team health administrator (green)"
+    },
+    {
+      "type": "method",
+      "id": "40997672436631ea",
+      "text": "8 S1 units have bounds\n4 S2 surprise continues\n18 S3 manage the risk\n11 S4 alignment and coordination\n9 S5 neighbors influence others\n5 S6 defines and searches space\n2 S7 two fundamental forms\n6 S8 no best or omniscient location\n2 S9 reveals and obscures properties\n8 S10 ongoing efforts are required"
+    },
+    {
+      "type": "paragraph",
+      "id": "6aa5efb6a8c73879",
+      "text": "Subject 4, reliability engineer (red)"
+    },
+    {
+      "type": "method",
+      "id": "3716cad95b6c3ae3",
+      "text": "5 S1 units have bounds\n7 S2 surprise continues\n10 S3 manage the risk\n19 S4 alignment and coordination\n17 S5 neighbors influence others\n3 S6 defines and searches space\n2 S7 two fundamental forms\n1 S8 no best or omniscient location\n2 S9 reveals and obscures properties\n7 S10 ongoing efforts are required"
+    },
+    {
+      "type": "paragraph",
+      "id": "60597ea5b9ce4a41",
+      "text": "Subject 5, reliability engineers (purple)"
+    },
+    {
+      "type": "method",
+      "id": "5be4babcc939faad",
+      "text": "8 S1 units have bounds\n4 S2 surprise continues\n7 S3 manage the risk\n16 S4 alignment and coordination\n11 S5 neighbors influence others\n7 S6 defines and searches space\n4 S7 two fundamental forms\n4 S8 no best or omniscient location\n4 S9 reveals and obscures properties\n7 S10 ongoing efforts are required"
+    },
+    {
+      "type": "paragraph",
+      "id": "85518b3286545125",
+      "text": "Subject 6, architect (brown)"
+    },
+    {
+      "type": "method",
+      "id": "c201b7eb807864eb",
+      "text": "11 S1 units have bounds\n10 S2 surprise continues\n25 S3 manage the risk\n6 S4 alignment and coordination\n4 S5 neighbors influence others\n2 S6 defines and searches space\n0 S7 two fundamental forms\n6 S8 no best or omniscient location\n4 S9 reveals and obscures properties\n4 S10 ongoing efforts are required"
+    },
+    {
+      "type": "paragraph",
+      "id": "4ad855851921022c",
+      "text": "Method: from a csv of raw results we copy one result column at a time, select S1-S10 values, and count occurrences of each. "
+    },
+    {
+      "type": "code",
+      "id": "d482e39ae5b30647",
+      "text": "pbpaste | \\\nperl -ne 'print \"$1\\n\" if /S(\\d+)/g' | \\\nsort -n | uniq -c"
+    }
+  ],
+  "journal": [
+    {
+      "type": "create",
+      "item": {
+        "title": "Results by Theorem",
+        "story": []
+      },
+      "date": 1556318810577
+    },
+    {
+      "type": "add",
+      "item": {
+        "type": "paragraph",
+        "id": "ca89dfca3e0c0294",
+        "text": "We classify team health indicators by Woods' psudo-theorems conducting the experiment multiple times."
+      },
+      "id": "ca89dfca3e0c0294",
+      "date": 1556318944174
+    },
+    {
+      "type": "add",
+      "id": "3755866c740e3912",
+      "item": {
+        "type": "paragraph",
+        "id": "3755866c740e3912",
+        "text": "Subject 1, team health assessor"
+      },
+      "after": "ca89dfca3e0c0294",
+      "date": 1556319058815
+    },
+    {
+      "type": "add",
+      "item": {
+        "type": "method",
+        "id": "10328133e149f361",
+        "text": "11 S1 units have bounds\n8 S2 surprise continues\n14 S3 manage the risk\n5 S4 alignment and coordination\n2 S5 neighbors influence others\n9 S6 defines and searches space\n2 S7 two fundamental forms\n2 S8 no best or omniscient location\n5 S9 reveals and obscures properties\n4 S10 ongoing efforts are required"
+      },
+      "after": "3755866c740e3912",
+      "id": "10328133e149f361",
+      "date": 1556319067231
+    },
+    {
+      "item": {
+        "type": "paragraph",
+        "id": "4751ba8b7d4342b8",
+        "text": "Subject 2, reliability engineer"
+      },
+      "id": "4751ba8b7d4342b8",
+      "type": "add",
+      "after": "10328133e149f361",
+      "date": 1556319073142
+    },
+    {
+      "type": "edit",
+      "id": "4751ba8b7d4342b8",
+      "item": {
+        "type": "paragraph",
+        "id": "4751ba8b7d4342b8",
+        "text": "Subject 2, reliability engineer"
+      },
+      "date": 1556319096798
+    },
+    {
+      "type": "edit",
+      "id": "3755866c740e3912",
+      "item": {
+        "type": "paragraph",
+        "id": "3755866c740e3912",
+        "text": "Subject 1, team health assessor"
+      },
+      "date": 1556319103496
+    },
+    {
+      "type": "add",
+      "item": {
+        "type": "method",
+        "id": "5568d37fbd4509d0",
+        "text": "1 S1 units have bounds\n5 S2 surprise continues\n5 S3 manage the risk\n5 S4 alignment and coordination\n11 S5 neighbors influence others\n11 S6 defines and searches space\n4 S7 two fundamental forms\n1 S8 no best or omniscient location\n14 S9 reveals and obscures properties\n9 S10 ongoing efforts are required"
+      },
+      "after": "4751ba8b7d4342b8",
+      "id": "5568d37fbd4509d0",
+      "date": 1556319118968
+    },
+    {
+      "item": {
+        "type": "paragraph",
+        "id": "ccad58120d0e5e2b",
+        "text": "Subject 3, team health administrator"
+      },
+      "id": "ccad58120d0e5e2b",
+      "type": "add",
+      "after": "5568d37fbd4509d0",
+      "date": 1556319124492
+    },
+    {
+      "type": "edit",
+      "id": "ccad58120d0e5e2b",
+      "item": {
+        "type": "paragraph",
+        "id": "ccad58120d0e5e2b",
+        "text": "Subject 3, team health administrator"
+      },
+      "date": 1556319199602
+    },
+    {
+      "type": "add",
+      "item": {
+        "type": "method",
+        "id": "40997672436631ea",
+        "text": "8 S1 units have bounds\n4 S2 surprise continues\n18 S3 manage the risk\n11 S4 alignment and coordination\n9 S5 neighbors influence others\n5 S6 defines and searches space\n2 S7 two fundamental forms\n6 S8 no best or omniscient location\n2 S9 reveals and obscures properties\n8 S10 ongoing efforts are required"
+      },
+      "after": "ccad58120d0e5e2b",
+      "id": "40997672436631ea",
+      "date": 1556319211120
+    },
+    {
+      "item": {
+        "type": "paragraph",
+        "id": "6aa5efb6a8c73879",
+        "text": "Subject 4, reliability engineer"
+      },
+      "id": "6aa5efb6a8c73879",
+      "type": "add",
+      "after": "40997672436631ea",
+      "date": 1556319221996
+    },
+    {
+      "type": "edit",
+      "id": "6aa5efb6a8c73879",
+      "item": {
+        "type": "paragraph",
+        "id": "6aa5efb6a8c73879",
+        "text": "Subject 4, reliability engineer"
+      },
+      "date": 1556319243189
+    },
+    {
+      "type": "add",
+      "item": {
+        "type": "method",
+        "id": "3716cad95b6c3ae3",
+        "text": "5 S1 units have bounds\n7 S2 surprise continues\n10 S3 manage the risk\n19 S4 alignment and coordination\n17 S5 neighbors influence others\n3 S6 defines and searches space\n2 S7 two fundamental forms\n1 S8 no best or omniscient location\n2 S9 reveals and obscures properties\n7 S10 ongoing efforts are required"
+      },
+      "after": "6aa5efb6a8c73879",
+      "id": "3716cad95b6c3ae3",
+      "date": 1556319255558
+    },
+    {
+      "item": {
+        "type": "paragraph",
+        "id": "60597ea5b9ce4a41",
+        "text": "Subject 5, reliability engineers"
+      },
+      "id": "60597ea5b9ce4a41",
+      "type": "add",
+      "after": "3716cad95b6c3ae3",
+      "date": 1556319265553
+    },
+    {
+      "type": "edit",
+      "id": "60597ea5b9ce4a41",
+      "item": {
+        "type": "paragraph",
+        "id": "60597ea5b9ce4a41",
+        "text": "Subject 5, reliability engineers"
+      },
+      "date": 1556319284217
+    },
+    {
+      "type": "add",
+      "item": {
+        "type": "method",
+        "id": "5be4babcc939faad",
+        "text": "8 S1 units have bounds\n4 S2 surprise continues\n7 S3 manage the risk\n16 S4 alignment and coordination\n11 S5 neighbors influence others\n7 S6 defines and searches space\n4 S7 two fundamental forms\n4 S8 no best or omniscient location\n4 S9 reveals and obscures properties\n7 S10 ongoing efforts are required"
+      },
+      "after": "60597ea5b9ce4a41",
+      "id": "5be4babcc939faad",
+      "date": 1556319299650
+    },
+    {
+      "item": {
+        "type": "paragraph",
+        "id": "85518b3286545125",
+        "text": "Subject 6, architect"
+      },
+      "id": "85518b3286545125",
+      "type": "add",
+      "after": "5be4babcc939faad",
+      "date": 1556319306425
+    },
+    {
+      "type": "edit",
+      "id": "85518b3286545125",
+      "item": {
+        "type": "paragraph",
+        "id": "85518b3286545125",
+        "text": "Subject 6, architect"
+      },
+      "date": 1556319330810
+    },
+    {
+      "type": "add",
+      "item": {
+        "type": "method",
+        "id": "c201b7eb807864eb",
+        "text": "11 S1 units have bounds\n10 S2 surprise continues\n25 S3 manage the risk\n6 S4 alignment and coordination\n4 S5 neighbors influence others\n2 S6 defines and searches space\n0 S7 two fundamental forms\n6 S8 no best or omniscient location\n4 S9 reveals and obscures properties\n4 S10 ongoing efforts are required"
+      },
+      "after": "85518b3286545125",
+      "id": "c201b7eb807864eb",
+      "date": 1556319337624
+    },
+    {
+      "type": "add",
+      "item": {
+        "type": "paragraph",
+        "id": "4ad855851921022c",
+        "text": "From a csv we copy one result column at a time, select S1-S10 values, and count occurrences of each. [https://ward.nrrd.wiki.org/assets/pages/woods-vs-team-health/health_indicators.csv csv]"
+      },
+      "after": "c201b7eb807864eb",
+      "id": "4ad855851921022c",
+      "date": 1556319721324
+    },
+    {
+      "type": "add",
+      "item": {
+        "type": "code",
+        "id": "d482e39ae5b30647",
+        "text": "pbpaste | \\\nperl -ne 'print \"$1\\n\" if /S(\\d+)/g' | \\\nsort -n | uniq -c"
+      },
+      "after": "4ad855851921022c",
+      "id": "d482e39ae5b30647",
+      "date": 1556319767142,
+      "error": {
+        "type": "error",
+        "msg": ""
+      }
+    },
+    {
+      "type": "edit",
+      "id": "4ad855851921022c",
+      "item": {
+        "type": "paragraph",
+        "id": "4ad855851921022c",
+        "text": "Method: from a csv of raw results we copy one result column at a time, select S1-S10 values, and count occurrences of each. "
+      },
+      "date": 1556319760159
+    },
+    {
+      "type": "fork",
+      "date": 1556319789778
+    },
+    {
+      "type": "add",
+      "id": "8419329497b501bc",
+      "item": {
+        "type": "paragraph",
+        "id": "8419329497b501bc",
+        "text": "See [[Results as Radar Chart]]"
+      },
+      "after": "ca89dfca3e0c0294",
+      "date": 1556321460693
+    },
+    {
+      "type": "edit",
+      "id": "3755866c740e3912",
+      "item": {
+        "type": "paragraph",
+        "id": "3755866c740e3912",
+        "text": "Subject 1, team health assessor (blue)"
+      },
+      "date": 1556321773283
+    },
+    {
+      "type": "edit",
+      "id": "4751ba8b7d4342b8",
+      "item": {
+        "type": "paragraph",
+        "id": "4751ba8b7d4342b8",
+        "text": "Subject 2, reliability engineer (orange)"
+      },
+      "date": 1556321781725
+    },
+    {
+      "type": "edit",
+      "id": "ccad58120d0e5e2b",
+      "item": {
+        "type": "paragraph",
+        "id": "ccad58120d0e5e2b",
+        "text": "Subject 3, team health administrator (green)"
+      },
+      "date": 1556321792022
+    },
+    {
+      "type": "edit",
+      "id": "6aa5efb6a8c73879",
+      "item": {
+        "type": "paragraph",
+        "id": "6aa5efb6a8c73879",
+        "text": "Subject 4, reliability engineer (red)"
+      },
+      "date": 1556321809006
+    },
+    {
+      "type": "edit",
+      "id": "60597ea5b9ce4a41",
+      "item": {
+        "type": "paragraph",
+        "id": "60597ea5b9ce4a41",
+        "text": "Subject 5, reliability engineers (purple)"
+      },
+      "date": 1556321822038
+    },
+    {
+      "type": "edit",
+      "id": "85518b3286545125",
+      "item": {
+        "type": "paragraph",
+        "id": "85518b3286545125",
+        "text": "Subject 6, architect (brown)"
+      },
+      "date": 1556321832291
+    }
+  ]
+}

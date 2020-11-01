@@ -1,0 +1,134 @@
+{
+  "title": "Results by Indicator",
+  "story": [
+    {
+      "type": "paragraph",
+      "id": "9abfa320ee25b1ad",
+      "text": "We retrieved the 2019 team health indicators from our survey software. We added a column for each subject and recorded responses with occasional discussion and clarification. We allowed multiple responses."
+    },
+    {
+      "type": "paragraph",
+      "id": "d4af2136602da939",
+      "text": "Raw data in spreadsheet format."
+    },
+    {
+      "type": "assets",
+      "id": "66f79bb2d0e05664",
+      "text": "pages/results-by-indicator"
+    },
+    {
+      "type": "paragraph",
+      "id": "318a7fe798ed3483",
+      "text": "Results aggregated by counting the number of subjects responding with each of the ten proto-theorems."
+    },
+    {
+      "type": "frame",
+      "id": "0193299fc626687a",
+      "text": "http://health.ward.asia.wiki.org/assets/pages/results-by-indicator/health_indicators.html\nHEIGHT 640"
+    }
+  ],
+  "journal": [
+    {
+      "type": "create",
+      "item": {
+        "title": "Results by Indicator",
+        "story": []
+      },
+      "date": 1556319873424
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "9abfa320ee25b1ad"
+      },
+      "id": "9abfa320ee25b1ad",
+      "type": "add",
+      "date": 1556319962884
+    },
+    {
+      "type": "edit",
+      "id": "9abfa320ee25b1ad",
+      "item": {
+        "type": "paragraph",
+        "id": "9abfa320ee25b1ad",
+        "text": "We retrieved the 2019 team health indicators from our survey software. We added a column for each subject and recorded responses with occasional discussion and clarification. We allowed multiple responses."
+      },
+      "date": 1556320364894
+    },
+    {
+      "type": "add",
+      "id": "d4af2136602da939",
+      "item": {
+        "type": "paragraph",
+        "id": "d4af2136602da939",
+        "text": "Raw data in spreadsheet format."
+      },
+      "after": "9abfa320ee25b1ad",
+      "date": 1556320420921
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "66f79bb2d0e05664"
+      },
+      "id": "66f79bb2d0e05664",
+      "type": "add",
+      "after": "d4af2136602da939",
+      "date": 1556320426144
+    },
+    {
+      "type": "edit",
+      "id": "66f79bb2d0e05664",
+      "item": {
+        "type": "assets",
+        "id": "66f79bb2d0e05664",
+        "text": "pages/results-by-indicator"
+      },
+      "date": 1556320440086
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "318a7fe798ed3483"
+      },
+      "id": "318a7fe798ed3483",
+      "type": "add",
+      "after": "66f79bb2d0e05664",
+      "date": 1556321023519
+    },
+    {
+      "type": "edit",
+      "id": "318a7fe798ed3483",
+      "item": {
+        "type": "paragraph",
+        "id": "318a7fe798ed3483",
+        "text": "Results aggregated by counting the number of subjects responding with each of the ten proto-theorems."
+      },
+      "date": 1556321096905
+    },
+    {
+      "type": "fork",
+      "date": 1556321151415
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "0193299fc626687a"
+      },
+      "id": "0193299fc626687a",
+      "type": "add",
+      "after": "318a7fe798ed3483",
+      "date": 1556321161176
+    },
+    {
+      "type": "edit",
+      "id": "0193299fc626687a",
+      "item": {
+        "type": "frame",
+        "id": "0193299fc626687a",
+        "text": "http://health.ward.asia.wiki.org/assets/pages/results-by-indicator/health_indicators.html\nHEIGHT 640"
+      },
+      "date": 1556321173654
+    }
+  ]
+}

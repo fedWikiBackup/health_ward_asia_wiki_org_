@@ -1,0 +1,694 @@
+{
+  "title": "Graceful Extensibility",
+  "story": [
+    {
+      "type": "markdown",
+      "id": "1f3cce9909baf698",
+      "text": "The opposite of brittleness in complex systems. David Woods presents a theory of graceful extensibility. This paper is dense and will reward further study. Know that it is not for the faint of heart. \nThe Theory of Graceful Extensibility:  basic rules that govern adaptive systems.\nDavid D. Woods.\nDepartment of Integrated Systems Engineering Ohio State University.\nSeptember 2018.\n[https://www.researchgate.net/publication/327427067_The_Theory_of_Graceful_Extensibility_Basic_rules_that_govern_adaptive_systems pdf]\n"
+    },
+    {
+      "type": "markdown",
+      "id": "92168e9b75a5329e",
+      "text": "All systems have an envelope of performance, or a range of adaptive behavior, due to **finite resources** and **continuous change**.  There is a transition zone where a system shifts regimes of performance when pushed to the edge of its envelope.  Brittleness and graceful extensibility describe how the system responds while exceeding its envelope of performance.  Graceful extensibility refers to a system’s ability to adapt how it works to extend performance past the boundary into a new regime of performance invoking new resources, responses, relationships, and priorities.\n"
+    },
+    {
+      "type": "markdown",
+      "id": "63f6ca4f0b6b1c61",
+      "text": "At the heart of the theory of graceful extensibility is the fundamental concept of managing **risk of saturation** via regulating the **capacity for maneuver**.\n"
+    },
+    {
+      "type": "paragraph",
+      "id": "c57394859d668b56",
+      "text": "The ten statements are organized into three groups. Inside each group there are relationships between the statements that complement, contrast, and compound each other. Between the three groups there are similar relationships of complement, contrast, and compounding. The diagram below over-simplifies these relationships. Like the systems these statements describe, things are much more entangled and woven together than any single model can capture. All models are wrong. We hope this model of the statements and groupings may be useful."
+    },
+    {
+      "type": "graphviz",
+      "id": "f3e7bc21c60cfa02",
+      "text": "strict digraph {\ncompound=true\nnode [shape=box style=filled fillcolor=bisque]\n\nsubgraph cluster_MRoS {\n label=\"Managing Risk of Saturation\"\n \n { S2 S1 } -> S3\n\n}\n\nsubgraph cluster_NoAU {\n label=\"Networks of Adaptive Units\"\n { S5 S4 } -> S6\n}\n\nsubgraph cluster_OC {\n label=\"Outmaneuvering Constraints\"\n { S9 S8 S7 } -> S10\n}\n\n S3 -> S8 [\n  ltail=cluster_MRoS\n  lhead=cluster_OC\n  minlen=2\n ]\n S6 -> S8 [\n  ltail=cluster_NoAU\n  lhead=cluster_OC\n  minlen=2\n ]\n\n}"
+    },
+    {
+      "type": "markdown",
+      "id": "d4466a56670e5b2c",
+      "text": "# Subset A: [[Managing Risk of Saturation]]\n"
+    },
+    {
+      "type": "markdown",
+      "id": "f36d387f1bdb4278",
+      "text": "S1: The adaptive capacity of any unit at any scale is finite, therefore, all units have bounds on their range of adaptive behavior, or capacity for maneuver.\n"
+    },
+    {
+      "type": "markdown",
+      "id": "bcc381c251580d11",
+      "text": "S2: Events will occur outside the bounds and will challenge the adaptive capacity of any unit, therefore, surprise continues to occur and demands response, otherwise the unit is brittle and subject to collapse in performance.\n"
+    },
+    {
+      "type": "markdown",
+      "id": "fe1bdda02a9de378",
+      "text": "S3: All units risk saturation of their adaptive capacity, therefore, units require some means to modify or extend their adaptive capacity to manage the risk of saturation when demands threaten to exhaust their base range of adaptive behavior.\n"
+    },
+    {
+      "type": "markdown",
+      "id": "9f33d0e0ab5bb1d8",
+      "text": "# Subset B: [[Networks of Adaptive Units]]\n"
+    },
+    {
+      "type": "markdown",
+      "id": "bd2a04225c18962f",
+      "text": "S4: No single unit, regardless of level or scope, can have sufficient range of adaptive behavior to manage the risk of saturation alone, therefore, alignment and coordination are needed across multiple interdependent units in a network.\n"
+    },
+    {
+      "type": "markdown",
+      "id": "de50c8087aa882e2",
+      "text": "S5: Neighboring units in the network can monitor and influence—constrict or extend— the capacity of other units to manage their risk of saturation, therefore, the effective range of any set of units depends on how neighbors influence others, as the risk of saturation increases.\n"
+    },
+    {
+      "type": "markdown",
+      "id": "6c9546d65722dbc5",
+      "text": "S6: As other interdependent units pursue their goals, they modify the pressures experienced by a unit of adaptive behavior which changes how that unit defines and searches for good operating points in a multi-dimensional trade space.\n"
+    },
+    {
+      "type": "markdown",
+      "id": "5a0af29b4c0b784b",
+      "text": "# Subset C: [[Outmaneuvering Constraints]]\n"
+    },
+    {
+      "type": "markdown",
+      "id": "b4607411d7ff0e8d",
+      "text": "S7: Performance of any unit as it approaches saturation is different from the performance of that unit when it operates far from saturation, therefore there are two fundamental forms of adaptive capacity for units to be viable—base and extended, both necessary but inter-constrained.\n"
+    },
+    {
+      "type": "markdown",
+      "id": "006267dc016bccd8",
+      "text": "S8: All adaptive units are local—constrained based on their position relative to the world and relative to other units in the network, therefore there is no best or omniscient location in the network\n"
+    },
+    {
+      "type": "markdown",
+      "id": "da12f3862450852a",
+      "text": "S9: There are bounds on the perspective of any unit—the view from any point of observation at any point in time simultaneously reveals and obscures properties of the environment—but this limit is overcome by shifting and contrasting over multiple perspectives.\n"
+    },
+    {
+      "type": "markdown",
+      "id": "1536015e67d28015",
+      "text": "S10: There are limits on how well a unit’s model of its own and others’ adaptive capacity can match actual capability, therefore, mis-calibration is the norm and ongoing efforts are required to improve the match and reduce mis-calibration (adaptive units, at least those with human participation, are reflective, but mis-calibrated)."
+    },
+    {
+      "type": "pagefold",
+      "id": "48525b89863e5f1d",
+      "text": "."
+    },
+    {
+      "type": "markdown",
+      "id": "5bb7e75f0365650e",
+      "text": "This paper expands on [[Human Performance in Systems]]"
+    }
+  ],
+  "journal": [
+    {
+      "type": "create",
+      "item": {
+        "title": "Graceful Extensibility",
+        "story": []
+      },
+      "date": 1549640811335
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "1f3cce9909baf698"
+      },
+      "id": "1f3cce9909baf698",
+      "type": "add",
+      "date": 1549640831831
+    },
+    {
+      "type": "edit",
+      "id": "1f3cce9909baf698",
+      "item": {
+        "type": "markdown",
+        "id": "1f3cce9909baf698",
+        "text": "[https://www.researchgate.net/publication/327427067_The_Theory_of_Graceful_Extensibility_Basic_rules_that_govern_adaptive_systems pdf]"
+      },
+      "date": 1549640843986
+    },
+    {
+      "type": "edit",
+      "id": "1f3cce9909baf698",
+      "item": {
+        "type": "markdown",
+        "id": "1f3cce9909baf698",
+        "text": "The opposite of brittleness in complex systems.[https://www.researchgate.net/publication/327427067_The_Theory_of_Graceful_Extensibility_Basic_rules_that_govern_adaptive_systems pdf]"
+      },
+      "date": 1549640983398
+    },
+    {
+      "type": "edit",
+      "id": "1f3cce9909baf698",
+      "item": {
+        "type": "markdown",
+        "id": "1f3cce9909baf698",
+        "text": "The opposite of brittleness in complex systems.  David Woods presents a theory of graceful extensibility [https://www.researchgate.net/publication/327427067_The_Theory_of_Graceful_Extensibility_Basic_rules_that_govern_adaptive_systems pdf]"
+      },
+      "date": 1549641033702
+    },
+    {
+      "type": "edit",
+      "id": "1f3cce9909baf698",
+      "item": {
+        "type": "markdown",
+        "id": "1f3cce9909baf698",
+        "text": "The opposite of brittleness in complex systems.  David Woods presents a theory of graceful extensibility. [https://www.researchgate.net/publication/327427067_The_Theory_of_Graceful_Extensibility_Basic_rules_that_govern_adaptive_systems pdf]"
+      },
+      "date": 1549641046263
+    },
+    {
+      "type": "edit",
+      "id": "1f3cce9909baf698",
+      "item": {
+        "type": "markdown",
+        "id": "1f3cce9909baf698",
+        "text": "The opposite of brittleness in complex systems.  David Woods presents a theory of graceful extensibility. [https://www.researchgate.net/publication/327427067_The_Theory_of_Graceful_Extensibility_Basic_rules_that_govern_adaptive_systems pdf]\n"
+      },
+      "date": 1549641138752
+    },
+    {
+      "type": "add",
+      "id": "92168e9b75a5329e",
+      "item": {
+        "type": "markdown",
+        "id": "92168e9b75a5329e",
+        "text": "All systems have an envelope of performance, or a range of adaptive behavior, due to finite resources and the inherent changing variability of its environment. Thus, there is a transition zone where systems shift regimes of performance when events push the system to the edge of its envelope"
+      },
+      "after": "1f3cce9909baf698",
+      "date": 1549641140173
+    },
+    {
+      "type": "edit",
+      "id": "92168e9b75a5329e",
+      "item": {
+        "type": "markdown",
+        "id": "92168e9b75a5329e",
+        "text": "All systems have an envelope of performance, or a range of adaptive behavior, due to finite resources and the inherent changing variability of its environment. Thus, there is a transition zone where systems shift regimes of performance when events push the system to the edge of its envelope."
+      },
+      "date": 1549641167969
+    },
+    {
+      "type": "edit",
+      "id": "92168e9b75a5329e",
+      "item": {
+        "type": "markdown",
+        "id": "92168e9b75a5329e",
+        "text": "All systems have an envelope of performance, or a range of adaptive behavior, due to **finite resources** and the **pervasive change**.  There is a transition zone where a system shifts regimes of performance when pushed to the edge of its envelope."
+      },
+      "date": 1549641331979
+    },
+    {
+      "type": "edit",
+      "id": "92168e9b75a5329e",
+      "item": {
+        "type": "markdown",
+        "id": "92168e9b75a5329e",
+        "text": "All systems have an envelope of performance, or a range of adaptive behavior, due to **finite resources** and the **pervasive change**.  There is a transition zone where a system shifts regimes of performance when pushed to the edge of its envelope.  Brittleness and graceful extensibility describe how the system responds while exceeding its envelope of performance.  Graceful extensibility refers to a system’s ability to adapt how it works to extend performance past the boundary into a new regime of performance invoking new resources, responses, relationships, and priorities."
+      },
+      "date": 1549641527055
+    },
+    {
+      "type": "edit",
+      "id": "92168e9b75a5329e",
+      "item": {
+        "type": "markdown",
+        "id": "92168e9b75a5329e",
+        "text": "All systems have an envelope of performance, or a range of adaptive behavior, due to **finite resources** and the **pervasive change**.  There is a transition zone where a system shifts regimes of performance when pushed to the edge of its envelope.  Brittleness and graceful extensibility describe how the system responds while exceeding its envelope of performance.  Graceful extensibility refers to a system’s ability to adapt how it works to extend performance past the boundary into a new regime of performance invoking new resources, responses, relationships, and priorities.\n"
+      },
+      "date": 1549641635233
+    },
+    {
+      "type": "add",
+      "id": "63f6ca4f0b6b1c61",
+      "item": {
+        "type": "markdown",
+        "id": "63f6ca4f0b6b1c61",
+        "text": "At the heart of the theory of graceful extensibility is the fundamental concept of managing **risk of saturation** via regulating the **capacity for maneuver**."
+      },
+      "after": "92168e9b75a5329e",
+      "date": 1549641657864
+    },
+    {
+      "type": "edit",
+      "id": "92168e9b75a5329e",
+      "item": {
+        "type": "markdown",
+        "id": "92168e9b75a5329e",
+        "text": "All systems have an envelope of performance, or a range of adaptive behavior, due to **finite resources** and **continuous change**.  There is a transition zone where a system shifts regimes of performance when pushed to the edge of its envelope.  Brittleness and graceful extensibility describe how the system responds while exceeding its envelope of performance.  Graceful extensibility refers to a system’s ability to adapt how it works to extend performance past the boundary into a new regime of performance invoking new resources, responses, relationships, and priorities.\n"
+      },
+      "date": 1549776215691
+    },
+    {
+      "type": "edit",
+      "id": "63f6ca4f0b6b1c61",
+      "item": {
+        "type": "markdown",
+        "id": "63f6ca4f0b6b1c61",
+        "text": "At the heart of the theory of graceful extensibility is the fundamental concept of managing **risk of saturation** via regulating the **capacity for maneuver**.\n"
+      },
+      "date": 1549776257076
+    },
+    {
+      "type": "edit",
+      "id": "63f6ca4f0b6b1c61",
+      "item": {
+        "type": "markdown",
+        "id": "63f6ca4f0b6b1c61",
+        "text": "At the heart of the theory of graceful extensibility is the fundamental concept of managing **risk of saturation** via regulating the **capacity for maneuver**.\n\n"
+      },
+      "date": 1549776374298
+    },
+    {
+      "type": "add",
+      "id": "3e8041cdcb39e794",
+      "item": {
+        "type": "markdown",
+        "id": "3e8041cdcb39e794",
+        "text": "managing the risk of saturation\nnetworks of adaptive units\noutmaneuvering constraints"
+      },
+      "after": "63f6ca4f0b6b1c61",
+      "date": 1549776453776
+    },
+    {
+      "type": "remove",
+      "id": "3e8041cdcb39e794",
+      "date": 1549776627466
+    },
+    {
+      "type": "edit",
+      "id": "63f6ca4f0b6b1c61",
+      "item": {
+        "type": "markdown",
+        "id": "63f6ca4f0b6b1c61",
+        "text": "At the heart of the theory of graceful extensibility is the fundamental concept of managing **risk of saturation** via regulating the **capacity for maneuver**.\n"
+      },
+      "date": 1549776650039
+    },
+    {
+      "type": "add",
+      "id": "d4466a56670e5b2c",
+      "item": {
+        "type": "markdown",
+        "id": "d4466a56670e5b2c",
+        "text": "# Subset A: Managing risk of saturation\n\nS1: The adaptive capacity of any unit at any scale is finite, therefore, all units have\nbounds on their range of adaptive behavior, or capacity for maneuver.\n\nS2: Events will occur outside the bounds and will challenge the adaptive capacity of any\nunit, therefore, surprise continues to occur and demands response, otherwise the unit is brittle and subject to collapse in performance.\n\nS3: All units risk saturation of their adaptive capacity, therefore, units require some means to modify or extend their adaptive capacity to manage the risk of saturation when demands threaten to exhaust their base range of adaptive behavior.\n8 of 51\n\n# Subset B: Networks of adaptive units\n\nS4: No single unit, regardless of level or scope, can have sufficient range of adaptive\nbehavior to manage the risk of saturation alone, therefore, alignment and coordination are needed across multiple interdependent units in a network.\n\nS5: Neighboring units in the network can monitor and influence—constrict or extend— the capacity of other units to manage their risk of saturation, therefore, the effective range of any set of units depends on how neighbors influence others, as the risk of saturation increases.\n\nS6: As other interdependent units pursue their goals, they modify the pressures experienced by a UAB which changes how that UAB defines and searches for good operating points in a multi-dimensional trade space.\nSubset C: Outmaneuvering constraints\n\nS7: Performance of any unit as it approaches saturation is different from the performance\nof that unit when it operates far from saturation, therefore there are two fundamental forms of adaptive capacity for units to be viable—base and extended, both necessary but inter-constrained.\n\nS8: All adaptive units are local—constrained based on their position relative to the world and relative to other units in the network, therefore there is no best or omniscient location in the network\n\nS9: There are bounds on the perspective of any unit—the view from any point of observation at any point in time simultaneously reveals and obscures properties of the environment—but this limit is overcome by shifting and contrasting over multiple perspectives.\n\nS10: There are limits on how well a unit’s model of its own and others’ adaptive capacity can match actual capability, therefore, mis-calibration is the norm and ongoing efforts are required to improve the match and reduce mis-calibration (adaptive units, at least those with human participation, are reflective, but mis-calibrated)."
+      },
+      "after": "63f6ca4f0b6b1c61",
+      "date": 1549776695343
+    },
+    {
+      "type": "edit",
+      "id": "d4466a56670e5b2c",
+      "item": {
+        "type": "markdown",
+        "id": "d4466a56670e5b2c",
+        "text": "# Subset A: Managing risk of saturation\n\nS1: The adaptive capacity of any unit at any scale is finite, therefore, all units have\nbounds on their range of adaptive behavior, or capacity for maneuver.\n\nS2: Events will occur outside the bounds and will challenge the adaptive capacity of any\nunit, therefore, surprise continues to occur and demands response, otherwise the unit is brittle and subject to collapse in performance.\n\nS3: All units risk saturation of their adaptive capacity, therefore, units require some means to modify or extend their adaptive capacity to manage the risk of saturation when demands threaten to exhaust their base range of adaptive behavior.\n8 of 51\n\n# Subset B: Networks of adaptive units\n\nS4: No single unit, regardless of level or scope, can have sufficient range of adaptive\nbehavior to manage the risk of saturation alone, therefore, alignment and coordination are needed across multiple interdependent units in a network.\n\nS5: Neighboring units in the network can monitor and influence—constrict or extend— the capacity of other units to manage their risk of saturation, therefore, the effective range of any set of units depends on how neighbors influence others, as the risk of saturation increases.\n\nS6: As other interdependent units pursue their goals, they modify the pressures experienced by a UAB which changes how that UAB defines and searches for good operating points in a multi-dimensional trade space.\n\n# Subset C: Outmaneuvering constraints\n\nS7: Performance of any unit as it approaches saturation is different from the performance\nof that unit when it operates far from saturation, therefore there are two fundamental forms of adaptive capacity for units to be viable—base and extended, both necessary but inter-constrained.\n\nS8: All adaptive units are local—constrained based on their position relative to the world and relative to other units in the network, therefore there is no best or omniscient location in the network\n\nS9: There are bounds on the perspective of any unit—the view from any point of observation at any point in time simultaneously reveals and obscures properties of the environment—but this limit is overcome by shifting and contrasting over multiple perspectives.\n\nS10: There are limits on how well a unit’s model of its own and others’ adaptive capacity can match actual capability, therefore, mis-calibration is the norm and ongoing efforts are required to improve the match and reduce mis-calibration (adaptive units, at least those with human participation, are reflective, but mis-calibrated)."
+      },
+      "date": 1549776729343
+    },
+    {
+      "type": "edit",
+      "id": "d4466a56670e5b2c",
+      "item": {
+        "type": "markdown",
+        "id": "d4466a56670e5b2c",
+        "text": "# Subset A: Managing risk of saturation\n\nS1: The adaptive capacity of any unit at any scale is finite, therefore, all units have bounds on their range of adaptive behavior, or capacity for maneuver.\n\nS2: Events will occur outside the bounds and will challenge the adaptive capacity of any unit, therefore, surprise continues to occur and demands response, otherwise the unit is brittle and subject to collapse in performance.\n\nS3: All units risk saturation of their adaptive capacity, therefore, units require some means to modify or extend their adaptive capacity to manage the risk of saturation when demands threaten to exhaust their base range of adaptive behavior.\n\n# Subset B: Networks of adaptive units\n\nS4: No single unit, regardless of level or scope, can have sufficient range of adaptive behavior to manage the risk of saturation alone, therefore, alignment and coordination are needed across multiple interdependent units in a network.\n\nS5: Neighboring units in the network can monitor and influence—constrict or extend— the capacity of other units to manage their risk of saturation, therefore, the effective range of any set of units depends on how neighbors influence others, as the risk of saturation increases.\n\nS6: As other interdependent units pursue their goals, they modify the pressures experienced by a UAB which changes how that UAB defines and searches for good operating points in a multi-dimensional trade space.\n\n# Subset C: Outmaneuvering constraints\n\nS7: Performance of any unit as it approaches saturation is different from the performance of that unit when it operates far from saturation, therefore there are two fundamental forms of adaptive capacity for units to be viable—base and extended, both necessary but inter-constrained.\n\nS8: All adaptive units are local—constrained based on their position relative to the world and relative to other units in the network, therefore there is no best or omniscient location in the network\n\nS9: There are bounds on the perspective of any unit—the view from any point of observation at any point in time simultaneously reveals and obscures properties of the environment—but this limit is overcome by shifting and contrasting over multiple perspectives.\n\nS10: There are limits on how well a unit’s model of its own and others’ adaptive capacity can match actual capability, therefore, mis-calibration is the norm and ongoing efforts are required to improve the match and reduce mis-calibration (adaptive units, at least those with human participation, are reflective, but mis-calibrated)."
+      },
+      "date": 1549776799559
+    },
+    {
+      "type": "edit",
+      "id": "d4466a56670e5b2c",
+      "item": {
+        "type": "markdown",
+        "id": "d4466a56670e5b2c",
+        "text": "# Subset A: Managing risk of saturation\n\nS1: The adaptive capacity of any unit at any scale is finite, therefore, all units have bounds on their range of adaptive behavior, or capacity for maneuver.\n\nS2: Events will occur outside the bounds and will challenge the adaptive capacity of any unit, therefore, surprise continues to occur and demands response, otherwise the unit is brittle and subject to collapse in performance.\n\nS3: All units risk saturation of their adaptive capacity, therefore, units require some means to modify or extend their adaptive capacity to manage the risk of saturation when demands threaten to exhaust their base range of adaptive behavior.\n\n# Subset B: Networks of adaptive units\n\nS4: No single unit, regardless of level or scope, can have sufficient range of adaptive behavior to manage the risk of saturation alone, therefore, alignment and coordination are needed across multiple interdependent units in a network.\n\nS5: Neighboring units in the network can monitor and influence—constrict or extend— the capacity of other units to manage their risk of saturation, therefore, the effective range of any set of units depends on how neighbors influence others, as the risk of saturation increases.\n\nS6: As other interdependent units pursue their goals, they modify the pressures experienced by a unit of adaptive behavior which changes how that unit defines and searches for good operating points in a multi-dimensional trade space.\n\n# Subset C: Outmaneuvering constraints\n\nS7: Performance of any unit as it approaches saturation is different from the performance of that unit when it operates far from saturation, therefore there are two fundamental forms of adaptive capacity for units to be viable—base and extended, both necessary but inter-constrained.\n\nS8: All adaptive units are local—constrained based on their position relative to the world and relative to other units in the network, therefore there is no best or omniscient location in the network\n\nS9: There are bounds on the perspective of any unit—the view from any point of observation at any point in time simultaneously reveals and obscures properties of the environment—but this limit is overcome by shifting and contrasting over multiple perspectives.\n\nS10: There are limits on how well a unit’s model of its own and others’ adaptive capacity can match actual capability, therefore, mis-calibration is the norm and ongoing efforts are required to improve the match and reduce mis-calibration (adaptive units, at least those with human participation, are reflective, but mis-calibrated)."
+      },
+      "date": 1549777051810
+    },
+    {
+      "type": "edit",
+      "id": "d4466a56670e5b2c",
+      "item": {
+        "type": "markdown",
+        "id": "d4466a56670e5b2c",
+        "text": "# Subset A: Managing risk of saturation\n"
+      },
+      "date": 1549813876979
+    },
+    {
+      "type": "add",
+      "id": "f36d387f1bdb4278",
+      "item": {
+        "type": "markdown",
+        "id": "f36d387f1bdb4278",
+        "text": "S1: The adaptive capacity of any unit at any scale is finite, therefore, all units have bounds on their range of adaptive behavior, or capacity for maneuver.\n"
+      },
+      "after": "d4466a56670e5b2c",
+      "date": 1549813882307
+    },
+    {
+      "type": "add",
+      "id": "bcc381c251580d11",
+      "item": {
+        "type": "markdown",
+        "id": "bcc381c251580d11",
+        "text": "S2: Events will occur outside the bounds and will challenge the adaptive capacity of any unit, therefore, surprise continues to occur and demands response, otherwise the unit is brittle and subject to collapse in performance.\n"
+      },
+      "after": "f36d387f1bdb4278",
+      "date": 1549813885556
+    },
+    {
+      "type": "add",
+      "id": "fe1bdda02a9de378",
+      "item": {
+        "type": "markdown",
+        "id": "fe1bdda02a9de378",
+        "text": "S3: All units risk saturation of their adaptive capacity, therefore, units require some means to modify or extend their adaptive capacity to manage the risk of saturation when demands threaten to exhaust their base range of adaptive behavior.\n"
+      },
+      "after": "bcc381c251580d11",
+      "date": 1549813888476
+    },
+    {
+      "type": "add",
+      "id": "9f33d0e0ab5bb1d8",
+      "item": {
+        "type": "markdown",
+        "id": "9f33d0e0ab5bb1d8",
+        "text": "# Subset B: Networks of adaptive units\n"
+      },
+      "after": "fe1bdda02a9de378",
+      "date": 1549813890917
+    },
+    {
+      "type": "add",
+      "id": "bd2a04225c18962f",
+      "item": {
+        "type": "markdown",
+        "id": "bd2a04225c18962f",
+        "text": "S4: No single unit, regardless of level or scope, can have sufficient range of adaptive behavior to manage the risk of saturation alone, therefore, alignment and coordination are needed across multiple interdependent units in a network.\n"
+      },
+      "after": "9f33d0e0ab5bb1d8",
+      "date": 1549813894195
+    },
+    {
+      "type": "add",
+      "id": "de50c8087aa882e2",
+      "item": {
+        "type": "markdown",
+        "id": "de50c8087aa882e2",
+        "text": "S5: Neighboring units in the network can monitor and influence—constrict or extend— the capacity of other units to manage their risk of saturation, therefore, the effective range of any set of units depends on how neighbors influence others, as the risk of saturation increases.\n"
+      },
+      "after": "bd2a04225c18962f",
+      "date": 1549813900600
+    },
+    {
+      "type": "add",
+      "id": "6c9546d65722dbc5",
+      "item": {
+        "type": "markdown",
+        "id": "6c9546d65722dbc5",
+        "text": "S6: As other interdependent units pursue their goals, they modify the pressures experienced by a unit of adaptive behavior which changes how that unit defines and searches for good operating points in a multi-dimensional trade space.\n"
+      },
+      "after": "de50c8087aa882e2",
+      "date": 1549813904042
+    },
+    {
+      "type": "add",
+      "id": "5a0af29b4c0b784b",
+      "item": {
+        "type": "markdown",
+        "id": "5a0af29b4c0b784b",
+        "text": "# Subset C: Outmaneuvering constraints\n"
+      },
+      "after": "6c9546d65722dbc5",
+      "date": 1549813907418
+    },
+    {
+      "type": "add",
+      "id": "b4607411d7ff0e8d",
+      "item": {
+        "type": "markdown",
+        "id": "b4607411d7ff0e8d",
+        "text": "S7: Performance of any unit as it approaches saturation is different from the performance of that unit when it operates far from saturation, therefore there are two fundamental forms of adaptive capacity for units to be viable—base and extended, both necessary but inter-constrained.\n"
+      },
+      "after": "5a0af29b4c0b784b",
+      "date": 1549813910698
+    },
+    {
+      "type": "add",
+      "id": "006267dc016bccd8",
+      "item": {
+        "type": "markdown",
+        "id": "006267dc016bccd8",
+        "text": "S8: All adaptive units are local—constrained based on their position relative to the world and relative to other units in the network, therefore there is no best or omniscient location in the network\n"
+      },
+      "after": "b4607411d7ff0e8d",
+      "date": 1549813912999
+    },
+    {
+      "type": "add",
+      "id": "da12f3862450852a",
+      "item": {
+        "type": "markdown",
+        "id": "da12f3862450852a",
+        "text": "S9: There are bounds on the perspective of any unit—the view from any point of observation at any point in time simultaneously reveals and obscures properties of the environment—but this limit is overcome by shifting and contrasting over multiple perspectives.\n"
+      },
+      "after": "006267dc016bccd8",
+      "date": 1549813916210
+    },
+    {
+      "type": "add",
+      "id": "1536015e67d28015",
+      "item": {
+        "type": "markdown",
+        "id": "1536015e67d28015",
+        "text": "S10: There are limits on how well a unit’s model of its own and others’ adaptive capacity can match actual capability, therefore, mis-calibration is the norm and ongoing efforts are required to improve the match and reduce mis-calibration (adaptive units, at least those with human participation, are reflective, but mis-calibrated)."
+      },
+      "after": "da12f3862450852a",
+      "date": 1549813919326
+    },
+    {
+      "type": "fork",
+      "date": 1550619479416
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "48525b89863e5f1d"
+      },
+      "id": "48525b89863e5f1d",
+      "type": "add",
+      "after": "1536015e67d28015",
+      "date": 1550619490230
+    },
+    {
+      "type": "edit",
+      "id": "48525b89863e5f1d",
+      "item": {
+        "type": "pagefold",
+        "id": "48525b89863e5f1d",
+        "text": "."
+      },
+      "date": 1550619493641
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "5bb7e75f0365650e"
+      },
+      "id": "5bb7e75f0365650e",
+      "type": "add",
+      "after": "48525b89863e5f1d",
+      "date": 1550619494847
+    },
+    {
+      "type": "edit",
+      "id": "5bb7e75f0365650e",
+      "item": {
+        "type": "markdown",
+        "id": "5bb7e75f0365650e",
+        "text": "This paper expands on [[Human Performance in Systems]]"
+      },
+      "date": 1550619511584
+    },
+    {
+      "type": "edit",
+      "id": "1f3cce9909baf698",
+      "item": {
+        "type": "markdown",
+        "id": "1f3cce9909baf698",
+        "text": "The opposite of brittleness in complex systems. David Woods presents a theory of graceful extensibility. This paper is dense and will reward further study. Know that it is not for the feint of heart. [https://www.researchgate.net/publication/327427067_The_Theory_of_Graceful_Extensibility_Basic_rules_that_govern_adaptive_systems pdf]\n"
+      },
+      "date": 1550619589016
+    },
+    {
+      "type": "edit",
+      "id": "1f3cce9909baf698",
+      "item": {
+        "type": "markdown",
+        "id": "1f3cce9909baf698",
+        "text": "The opposite of brittleness in complex systems. David Woods presents a theory of graceful extensibility. This paper is dense and will reward further study. Know that it is not for the faint of heart. [https://www.researchgate.net/publication/327427067_The_Theory_of_Graceful_Extensibility_Basic_rules_that_govern_adaptive_systems pdf]\n"
+      },
+      "date": 1554139506658
+    },
+    {
+      "type": "fork",
+      "date": 1554198930751
+    },
+    {
+      "type": "edit",
+      "id": "d4466a56670e5b2c",
+      "item": {
+        "type": "markdown",
+        "id": "d4466a56670e5b2c",
+        "text": "# Subset A: [[Managing Risk of Saturation]]\n"
+      },
+      "date": 1554200867790
+    },
+    {
+      "type": "edit",
+      "id": "9f33d0e0ab5bb1d8",
+      "item": {
+        "type": "markdown",
+        "id": "9f33d0e0ab5bb1d8",
+        "text": "# Subset B: [[Networks of adaptive units]]\n"
+      },
+      "date": 1554201765681
+    },
+    {
+      "type": "edit",
+      "id": "9f33d0e0ab5bb1d8",
+      "item": {
+        "type": "markdown",
+        "id": "9f33d0e0ab5bb1d8",
+        "text": "# Subset B: [[Networks of Adaptive Units]]\n"
+      },
+      "date": 1554202105513
+    },
+    {
+      "type": "edit",
+      "id": "5a0af29b4c0b784b",
+      "item": {
+        "type": "markdown",
+        "id": "5a0af29b4c0b784b",
+        "text": "# Subset C: [[Outmaneuvering Constraints]]\n"
+      },
+      "date": 1554202113104
+    },
+    {
+      "type": "remove",
+      "id": "5bb7e75f0365650e",
+      "date": 1554205891057
+    },
+    {
+      "type": "remove",
+      "id": "48525b89863e5f1d",
+      "date": 1554205894714
+    },
+    {
+      "type": "fork",
+      "date": 1554222238647
+    },
+    {
+      "type": "fork",
+      "site": "tge.wiki.dbbs.co"
+    },
+    {
+      "type": "add",
+      "item": {
+        "type": "pagefold",
+        "id": "48525b89863e5f1d",
+        "text": "."
+      },
+      "after": "1536015e67d28015",
+      "id": "48525b89863e5f1d",
+      "date": 1554879749259
+    },
+    {
+      "type": "add",
+      "item": {
+        "type": "markdown",
+        "id": "5bb7e75f0365650e",
+        "text": "This paper expands on [[Human Performance in Systems]]"
+      },
+      "after": "48525b89863e5f1d",
+      "id": "5bb7e75f0365650e",
+      "date": 1554879753191
+    },
+    {
+      "type": "edit",
+      "id": "1f3cce9909baf698",
+      "item": {
+        "type": "markdown",
+        "id": "1f3cce9909baf698",
+        "text": "The opposite of brittleness in complex systems. David Woods presents a theory of graceful extensibility. This paper is dense and will reward further study. Know that it is not for the faint of heart. The Theory of Graceful Extensibility:  basic rules that govern adaptive systems.\nDavid D. Woods.\nDepartment of Integrated Systems Engineering Ohio State University.\nSeptember 2018. [https://www.researchgate.net/publication/327427067_The_Theory_of_Graceful_Extensibility_Basic_rules_that_govern_adaptive_systems pdf]\n"
+      },
+      "date": 1556052029060
+    },
+    {
+      "type": "edit",
+      "id": "1f3cce9909baf698",
+      "item": {
+        "type": "markdown",
+        "id": "1f3cce9909baf698",
+        "text": "The opposite of brittleness in complex systems. David Woods presents a theory of graceful extensibility. This paper is dense and will reward further study. Know that it is not for the faint of heart. \nThe Theory of Graceful Extensibility:  basic rules that govern adaptive systems.\nDavid D. Woods.\nDepartment of Integrated Systems Engineering Ohio State University.\nSeptember 2018. [https://www.researchgate.net/publication/327427067_The_Theory_of_Graceful_Extensibility_Basic_rules_that_govern_adaptive_systems pdf]\n"
+      },
+      "date": 1556052048149
+    },
+    {
+      "type": "fork",
+      "site": "wiki.dbbs.co"
+    },
+    {
+      "type": "edit",
+      "id": "1f3cce9909baf698",
+      "item": {
+        "type": "markdown",
+        "id": "1f3cce9909baf698",
+        "text": "The opposite of brittleness in complex systems. David Woods presents a theory of graceful extensibility. This paper is dense and will reward further study. Know that it is not for the faint of heart. \nThe Theory of Graceful Extensibility:  basic rules that govern adaptive systems.\nDavid D. Woods.\nDepartment of Integrated Systems Engineering Ohio State University.\nSeptember 2018.\n[https://www.researchgate.net/publication/327427067_The_Theory_of_Graceful_Extensibility_Basic_rules_that_govern_adaptive_systems pdf]\n"
+      },
+      "date": 1556052130345
+    },
+    {
+      "type": "add",
+      "item": {
+        "type": "graphviz",
+        "id": "f3e7bc21c60cfa02",
+        "text": "strict digraph {\ncompound=true\nnode [shape=box]\n\nsubgraph cluster_MRoS {\n label=\"Managing Risk of Saturation\"\n \n { S2 S1 } -> S3\n\n}\n\nsubgraph cluster_NoAU {\n label=\"Networks of Adaptive Units\"\n { S5 S4 } -> S6\n}\n\nsubgraph cluster_OC {\n label=\"Outmaneuvering Constraints\"\n { S9 S8 S7 } -> S10\n}\n\n S3 -> S8 [\n  ltail=cluster_MRoS\n  lhead=cluster_OC\n  minlen=2\n ]\n S6 -> S8 [\n  ltail=cluster_NoAU\n  lhead=cluster_OC\n  minlen=2\n ]\n\n}"
+      },
+      "after": "63f6ca4f0b6b1c61",
+      "id": "f3e7bc21c60cfa02",
+      "date": 1558041098400
+    },
+    {
+      "type": "add",
+      "item": {
+        "type": "paragraph",
+        "id": "c57394859d668b56",
+        "text": "The ten statements are organized into three groups. Inside each group there are relationships between the statements that complement, contrast, and compound each other. Between the three groups there are similar relationships of complement, contrast, and compounding. The diagram below over-simplifies these relationships. Like the systems these statements describe, things are much more entangled and woven together than any single model can capture. All models are wrong. We hope this model of the statements and groupings may be useful."
+      },
+      "after": "63f6ca4f0b6b1c61",
+      "id": "c57394859d668b56",
+      "date": 1558107210107
+    },
+    {
+      "type": "fork",
+      "site": "tge.wiki.dbbs.co",
+      "date": 1560815364986
+    },
+    {
+      "type": "edit",
+      "id": "f3e7bc21c60cfa02",
+      "item": {
+        "type": "graphviz",
+        "id": "f3e7bc21c60cfa02",
+        "text": "strict digraph {\ncompound=true\nnode [shape=box style=filled fillcolor=bisque]\n\nsubgraph cluster_MRoS {\n label=\"Managing Risk of Saturation\"\n \n { S2 S1 } -> S3\n\n}\n\nsubgraph cluster_NoAU {\n label=\"Networks of Adaptive Units\"\n { S5 S4 } -> S6\n}\n\nsubgraph cluster_OC {\n label=\"Outmaneuvering Constraints\"\n { S9 S8 S7 } -> S10\n}\n\n S3 -> S8 [\n  ltail=cluster_MRoS\n  lhead=cluster_OC\n  minlen=2\n ]\n S6 -> S8 [\n  ltail=cluster_NoAU\n  lhead=cluster_OC\n  minlen=2\n ]\n\n}"
+      },
+      "date": 1560815386636
+    }
+  ]
+}
