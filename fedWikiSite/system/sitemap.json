@@ -1,0 +1,56 @@
+[
+  {
+    "slug": "about-team-health-survey",
+    "title": "About Team Health Survey",
+    "date": 1554431179577,
+    "synopsis": "Here we describe our survey construction and application methods. Of specific interest here is the connection between practices, fluency and the indicators. I suspect we can mine material Brent already has to complete this section. I've drawn the following from posts. [https://newrelic.jiveon.com/docs/DOC-11116 jive] [https://newrelic.jiveon.com/docs/DOC-66051 jive]"
+  },
+  {
+    "slug": "assessing-team-health-survey",
+    "title": "Assessing Team Health Survey",
+    "date": 1556322658032,
+    "synopsis": "We're inspired by David Woods' Theory of Graceful Extensibility and have attempted to use it as a yardstick for measuring the long-term adaptability of systems. Here we apply the measure to a software development health survey conducted team by team on a yearly basis."
+  },
+  {
+    "slug": "graceful-extensibility",
+    "title": "Graceful Extensibility",
+    "date": 1560815386636,
+    "synopsis": "The opposite of brittleness in complex systems. David Woods presents a theory of graceful extensibility. This paper is dense and will reward further study. Know that it is not for the faint of heart. "
+  },
+  {
+    "slug": "results-as-radar-chart",
+    "title": "Results as Radar Chart",
+    "date": 1556321674733,
+    "synopsis": "Open [[Results by Theorem]] then this chart."
+  },
+  {
+    "slug": "results-by-indicator",
+    "title": "Results by Indicator",
+    "date": 1556321173654,
+    "synopsis": "We retrieved the 2019 team health indicators from our survey software. We added a column for each subject and recorded responses with occasional discussion and clarification. We allowed multiple responses."
+  },
+  {
+    "slug": "results-by-theorem",
+    "title": "Results by Theorem",
+    "date": 1556321832291,
+    "synopsis": "We classify team health indicators by Woods' psudo-theorems conducting the experiment multiple times."
+  },
+  {
+    "slug": "upscale-reorganization",
+    "title": "Upscale Reorganization",
+    "date": 1505788859700,
+    "synopsis": "This short video reveals how Project Upscale empowered our engineering operations into “full ownership teams” with the autonomy to decide for themselves what to work on next. [https://blog.newrelic.com/2016/06/28/project-upscale-video/ post]"
+  },
+  {
+    "slug": "ward-cunningham",
+    "title": "Ward Cunningham",
+    "date": 1556336515410,
+    "synopsis": "I am a two-time team health assessor where I facilitated the survey and following discussion for about ten teams each year. I am a fan of the process which is sufficiently methodical to help teams immediately and provide management with longitudinal perspectives."
+  },
+  {
+    "slug": "welcome-visitors",
+    "title": "Welcome Visitors",
+    "date": 1556236596352,
+    "synopsis": "Welcome to this [[Federated Wiki]] site. From this page you can find who we are and what we do. New sites provide this information and then claim the site as their own. You will need your own site to participate."
+  }
+]
