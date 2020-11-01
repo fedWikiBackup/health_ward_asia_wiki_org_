@@ -1,0 +1,407 @@
+{
+  "title": "Assessing Team Health Survey",
+  "story": [
+    {
+      "type": "paragraph",
+      "id": "745d729472949332",
+      "text": "We're inspired by David Woods' Theory of Graceful Extensibility and have attempted to use it as a yardstick for measuring the long-term adaptability of systems. Here we apply the measure to a software development health survey conducted team by team on a yearly basis."
+    },
+    {
+      "type": "paragraph",
+      "id": "a0e60a39ff8234aa",
+      "text": "We compare his ten abstracted statements to the 73 indicators used to assess team fluency in the methods employed within the New Relic product group."
+    },
+    {
+      "type": "paragraph",
+      "id": "08d6127151500ac4",
+      "text": "This required two levels of interpretation. First, what did we expect our indicators to indicate? Second, how did that indicated behavior align with that captured in Woods' proto-theorems? Given these two levels of judgement we sought out staff familiar with one or both of the systems and asked them to tally correspondence."
+    },
+    {
+      "type": "markdown",
+      "id": "4862d3f2b7a459fc",
+      "text": "# Results"
+    },
+    {
+      "type": "paragraph",
+      "id": "e7c56f18366e0ae2",
+      "text": "See [[Results by Indicator]] for raw data collected."
+    },
+    {
+      "type": "paragraph",
+      "id": "dcc554acd2d14c3f",
+      "text": "See [[Results by Theorem]] for frequency of alignment."
+    },
+    {
+      "type": "paragraph",
+      "id": "5135e6098d118c3e",
+      "text": "We found this classification to require careful thought for at least an hour usually after a half-hour of reviewing the categories and statements of Woods' Table 1."
+    },
+    {
+      "type": "paragraph",
+      "id": "2568b822c6259603",
+      "text": "We found that some implied behaviors addressed multiple statements especially if we thought simultaneously of both teams and individuals as units of adaptive behavior."
+    },
+    {
+      "type": "paragraph",
+      "id": "f1b6219f0018f24b",
+      "text": "We found many of our indicators that had roots in a similar agile fluency survey fell into subcategory A. Agile thinking dates back to the dawn of desktop computing where IT organizations would commission one team to meet the needs of one kind of user."
+    },
+    {
+      "type": "paragraph",
+      "id": "a314c5f6220e0fc5",
+      "text": "We found that at least one indicator touched every statement with often the more organizational or open source behaviors crossed team or level boundaries. For example, do you accept pull requests from other teams in a timely way."
+    },
+    {
+      "type": "paragraph",
+      "id": "b15b22de578f0b4c",
+      "text": "We found a couple of statements that challenged organizational principles dating back to Upscale where we set out to remove cross-team dependencies and provide omicient management supervision."
+    },
+    {
+      "type": "paragraph",
+      "id": "7f5f215f5d857302",
+      "text": "See [[Upscale Reorganization]]"
+    },
+    {
+      "type": "markdown",
+      "id": "d49431b3bddc218c",
+      "text": "# Conclusion"
+    },
+    {
+      "type": "paragraph",
+      "id": "c21d147e27476ded",
+      "text": "Our team health survey practice was founded on the belief that we might be slipping from some of the goals of the Upscale reorganization. This is inevitable given the growth of our organization and large shifts in our customer base."
+    },
+    {
+      "type": "paragraph",
+      "id": "f5bf05ea58060aff",
+      "text": "This analysis has raised a third possibility: emergent complex behavior in our network of engineers. We will at least add additional indicators to look for this in subsequent surveys and possibly revise our recommended development practices to address specific limitations inherent in what we do."
+    }
+  ],
+  "journal": [
+    {
+      "type": "create",
+      "item": {
+        "title": "Assessing Team Health Survey",
+        "story": []
+      },
+      "date": 1556236614722
+    },
+    {
+      "type": "add",
+      "item": {
+        "type": "paragraph",
+        "id": "745d729472949332",
+        "text": "We're inspired by David Woods' Theory of Graceful Extensibility and have attempted to use it as a yardstick for measuring the long-term adaptability of systems. Here we apply the measure to the best aspects of Extreme Programming which we've described elsewhere as normative good."
+      },
+      "id": "745d729472949332",
+      "date": 1556236640978
+    },
+    {
+      "type": "edit",
+      "id": "745d729472949332",
+      "item": {
+        "type": "paragraph",
+        "id": "745d729472949332",
+        "text": "We're inspired by David Woods' Theory of Graceful Extensibility and have attempted to use it as a yardstick for measuring the long-term adaptability of systems. Here we apply the measure to a software development health survey conducted team by team on a yearly basis."
+      },
+      "date": 1556236723764
+    },
+    {
+      "type": "add",
+      "item": {
+        "type": "paragraph",
+        "id": "a0e60a39ff8234aa",
+        "text": "David Woods challenges us to consider how long-lived systems adapt to changes in their environment, and indeed to changes in how they must adapt. We compare his ten abstracted statements to the 73 indicators used to assess team fluency in the methods employed within the New Relic product group."
+      },
+      "after": "745d729472949332",
+      "id": "a0e60a39ff8234aa",
+      "date": 1556317537640
+    },
+    {
+      "type": "edit",
+      "id": "a0e60a39ff8234aa",
+      "item": {
+        "type": "paragraph",
+        "id": "a0e60a39ff8234aa",
+        "text": "We compare his ten abstracted statements to the 73 indicators used to assess team fluency in the methods employed within the New Relic product group."
+      },
+      "date": 1556317551059
+    },
+    {
+      "type": "add",
+      "item": {
+        "type": "paragraph",
+        "id": "08d6127151500ac4",
+        "text": "We wondered to what degree our own software team health indicators would indicate competencies aligned with those admired by Woods. This required two levels of interpretation. First, what did we expect our indicators to indicate? Second, how did that indicated behavior align with that captured in Woods' proto-theorems? Given these two levels of judgement we sought out staff familiar with one or both of the systems and asked them to tally correspondence."
+      },
+      "after": "a0e60a39ff8234aa",
+      "id": "08d6127151500ac4",
+      "date": 1556317574062
+    },
+    {
+      "type": "edit",
+      "id": "08d6127151500ac4",
+      "item": {
+        "type": "paragraph",
+        "id": "08d6127151500ac4",
+        "text": "This required two levels of interpretation. First, what did we expect our indicators to indicate? Second, how did that indicated behavior align with that captured in Woods' proto-theorems? Given these two levels of judgement we sought out staff familiar with one or both of the systems and asked them to tally correspondence."
+      },
+      "date": 1556317597250
+    },
+    {
+      "type": "add",
+      "id": "4862d3f2b7a459fc",
+      "item": {
+        "type": "paragraph",
+        "id": "4862d3f2b7a459fc",
+        "text": "# Results"
+      },
+      "after": "08d6127151500ac4",
+      "date": 1556317671460
+    },
+    {
+      "type": "fork",
+      "date": 1556318532402
+    },
+    {
+      "type": "add",
+      "item": {
+        "type": "paragraph",
+        "id": "e7c56f18366e0ae2",
+        "text": "See [[Results by Indicator]] for raw data collected."
+      },
+      "after": "4862d3f2b7a459fc",
+      "id": "e7c56f18366e0ae2",
+      "date": 1556318547999
+    },
+    {
+      "type": "add",
+      "item": {
+        "type": "paragraph",
+        "id": "dcc554acd2d14c3f",
+        "text": "See [[Results by Theorem]] for frequency of alignment."
+      },
+      "after": "e7c56f18366e0ae2",
+      "id": "dcc554acd2d14c3f",
+      "date": 1556318551387
+    },
+    {
+      "type": "add",
+      "item": {
+        "type": "paragraph",
+        "id": "5135e6098d118c3e",
+        "text": "We found this classification to require careful thought for at least an hour usually after a half-hour of reviewing the categories and statements of Woods' Table 1."
+      },
+      "after": "dcc554acd2d14c3f",
+      "id": "5135e6098d118c3e",
+      "date": 1556318564232
+    },
+    {
+      "type": "add",
+      "item": {
+        "type": "paragraph",
+        "id": "f1b6219f0018f24b",
+        "text": "We found many of our indicators that had roots in a similar agile fluency survey fell into subcategory A. Agile thinking dates back to the dawn of desktop computing where IT organizations would commission one team to meet the needs of one kind of user."
+      },
+      "after": "5135e6098d118c3e",
+      "id": "f1b6219f0018f24b",
+      "date": 1556318582209
+    },
+    {
+      "type": "add",
+      "item": {
+        "type": "paragraph",
+        "id": "a314c5f6220e0fc5",
+        "text": "We found that at least one indicator touched every statement with often the more organizational or open source behaviors crossed team or level boundaries. For example, do you accept pull requests from other teams in a timely way."
+      },
+      "after": "f1b6219f0018f24b",
+      "id": "a314c5f6220e0fc5",
+      "date": 1556318587116
+    },
+    {
+      "type": "add",
+      "item": {
+        "type": "paragraph",
+        "id": "2568b822c6259603",
+        "text": "We found that some implied behaviors addressed multiple statements especially if we thought simultaneously of both teams and individuals as units of adaptive behavior."
+      },
+      "after": "a314c5f6220e0fc5",
+      "id": "2568b822c6259603",
+      "date": 1556318596984
+    },
+    {
+      "type": "add",
+      "item": {
+        "type": "paragraph",
+        "id": "b15b22de578f0b4c",
+        "text": "We found a couple of statements that challenged organizational principles dating back to Upscale where we set out to remove cross-team dependencies and provide omicient management supervision."
+      },
+      "after": "2568b822c6259603",
+      "id": "b15b22de578f0b4c",
+      "date": 1556318609469
+    },
+    {
+      "type": "add",
+      "item": {
+        "type": "markdown",
+        "id": "d49431b3bddc218c",
+        "text": "# Conclusion"
+      },
+      "after": "b15b22de578f0b4c",
+      "id": "d49431b3bddc218c",
+      "date": 1556318633327
+    },
+    {
+      "type": "add",
+      "item": {
+        "type": "paragraph",
+        "id": "c21d147e27476ded",
+        "text": "Our team health survey practice was founded on the belief that we might be slipping from some of the goals of the Upscale reorganization. This is inevitable given the growth of our organization and large shifts in our customer base."
+      },
+      "after": "d49431b3bddc218c",
+      "id": "c21d147e27476ded",
+      "date": 1556318662981
+    },
+    {
+      "type": "add",
+      "item": {
+        "type": "paragraph",
+        "id": "f5bf05ea58060aff",
+        "text": "This analysis has raised a third possibility: emergent complex behavior in our network of engineers. We will at least add additional indicators to look for this in subsequent surveys and possibly revise our recommended development practices to address specific limitations inherent in what we do."
+      },
+      "after": "b15b22de578f0b4c",
+      "id": "f5bf05ea58060aff",
+      "date": 1556318670115
+    },
+    {
+      "type": "move",
+      "order": [
+        "745d729472949332",
+        "a0e60a39ff8234aa",
+        "08d6127151500ac4",
+        "4862d3f2b7a459fc",
+        "e7c56f18366e0ae2",
+        "dcc554acd2d14c3f",
+        "5135e6098d118c3e",
+        "f1b6219f0018f24b",
+        "a314c5f6220e0fc5",
+        "2568b822c6259603",
+        "b15b22de578f0b4c",
+        "d49431b3bddc218c",
+        "c21d147e27476ded",
+        "f5bf05ea58060aff"
+      ],
+      "id": "f5bf05ea58060aff",
+      "date": 1556318675267
+    },
+    {
+      "type": "edit",
+      "id": "4862d3f2b7a459fc",
+      "item": {
+        "type": "markdown",
+        "id": "4862d3f2b7a459fc",
+        "text": "# Results"
+      },
+      "date": 1556318687805
+    },
+    {
+      "type": "add",
+      "item": {
+        "type": "paragraph",
+        "id": "7f5f215f5d857302",
+        "text": "See [[Upscale Reorganization]]"
+      },
+      "after": "b15b22de578f0b4c",
+      "id": "7f5f215f5d857302",
+      "date": 1556318732530
+    },
+    {
+      "type": "move",
+      "order": [
+        "745d729472949332",
+        "a0e60a39ff8234aa",
+        "08d6127151500ac4",
+        "4862d3f2b7a459fc",
+        "e7c56f18366e0ae2",
+        "dcc554acd2d14c3f",
+        "a314c5f6220e0fc5",
+        "5135e6098d118c3e",
+        "f1b6219f0018f24b",
+        "2568b822c6259603",
+        "b15b22de578f0b4c",
+        "7f5f215f5d857302",
+        "d49431b3bddc218c",
+        "c21d147e27476ded",
+        "f5bf05ea58060aff"
+      ],
+      "id": "a314c5f6220e0fc5",
+      "date": 1556318733064
+    },
+    {
+      "type": "move",
+      "order": [
+        "745d729472949332",
+        "a0e60a39ff8234aa",
+        "08d6127151500ac4",
+        "4862d3f2b7a459fc",
+        "e7c56f18366e0ae2",
+        "dcc554acd2d14c3f",
+        "5135e6098d118c3e",
+        "a314c5f6220e0fc5",
+        "f1b6219f0018f24b",
+        "2568b822c6259603",
+        "b15b22de578f0b4c",
+        "7f5f215f5d857302",
+        "d49431b3bddc218c",
+        "c21d147e27476ded",
+        "f5bf05ea58060aff"
+      ],
+      "id": "5135e6098d118c3e",
+      "date": 1556322638784
+    },
+    {
+      "type": "move",
+      "order": [
+        "745d729472949332",
+        "a0e60a39ff8234aa",
+        "08d6127151500ac4",
+        "4862d3f2b7a459fc",
+        "e7c56f18366e0ae2",
+        "dcc554acd2d14c3f",
+        "5135e6098d118c3e",
+        "2568b822c6259603",
+        "a314c5f6220e0fc5",
+        "f1b6219f0018f24b",
+        "b15b22de578f0b4c",
+        "7f5f215f5d857302",
+        "d49431b3bddc218c",
+        "c21d147e27476ded",
+        "f5bf05ea58060aff"
+      ],
+      "id": "2568b822c6259603",
+      "date": 1556322645106
+    },
+    {
+      "type": "move",
+      "order": [
+        "745d729472949332",
+        "a0e60a39ff8234aa",
+        "08d6127151500ac4",
+        "4862d3f2b7a459fc",
+        "e7c56f18366e0ae2",
+        "dcc554acd2d14c3f",
+        "5135e6098d118c3e",
+        "2568b822c6259603",
+        "f1b6219f0018f24b",
+        "a314c5f6220e0fc5",
+        "b15b22de578f0b4c",
+        "7f5f215f5d857302",
+        "d49431b3bddc218c",
+        "c21d147e27476ded",
+        "f5bf05ea58060aff"
+      ],
+      "id": "f1b6219f0018f24b",
+      "date": 1556322658032
+    }
+  ]
+}
