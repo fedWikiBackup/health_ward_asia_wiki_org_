@@ -1,0 +1,334 @@
+{
+  "title": "About Team Health Survey",
+  "story": [
+    {
+      "type": "paragraph",
+      "id": "6022b2a3a5f5ba77",
+      "text": "Here we describe our survey construction and application methods. Of specific interest here is the connection between practices, fluency and the indicators. I suspect we can mine material Brent already has to complete this section. I've drawn the following from posts. [https://newrelic.jiveon.com/docs/DOC-11116 jive] [https://newrelic.jiveon.com/docs/DOC-66051 jive]"
+    },
+    {
+      "type": "markdown",
+      "id": "3207d743064f678c",
+      "text": "# 2017"
+    },
+    {
+      "type": "paragraph",
+      "id": "2557fbc8429a6b06",
+      "text": "The assessment was based on methodology and content from the Agile Fluency Project. The AFP is the brainchild of Jim Shore and Diana Larsen. Since Jim led our org through Upscale, agile fluency thinking is deeply embedded in our org design. We started with the AFP’s agile fluency diagnosis and used that as the core of our broader team health assessment.\n\n"
+    },
+    {
+      "type": "paragraph",
+      "id": "865f8bfc2eeba82f",
+      "text": "Creating the standards and indicators\nBroadening the scope of the AFP diagnostic meant generating a lot of new content. We needed to create a full set of team health standards. To do so, we interviewed a large number of directors and vice presidents in the product org, asking them a simple question: “In your experience, what makes a team healthy?” We were sure to interview leaders in all 4 of the major legs of the product org stool: engineering, design, product management, and operations. The answers we collected were both numerous (in the low 200s) and very wide-ranging.\n\n\n"
+    },
+    {
+      "type": "paragraph",
+      "id": "ff22f6e516b81d22",
+      "text": "Asking teams to fill out a 200-question survey was clearly a non-starter, so we reduced the list of questions using an affinity mapping process. Affinity mapping is a great way to filter and sort a large amount of ideas to understand emergent themes. This helped us decide on not only the 64 health indicators we ended with, but also on the hierarchical grouping of the 64 indicators into 23 standards and 6 overarching themes."
+    },
+    {
+      "type": "markdown",
+      "id": "7ce5f51fbc24e52a",
+      "text": "# 2018"
+    },
+    {
+      "type": "paragraph",
+      "id": "eb8fe32a9bb210dc",
+      "text": "Since last year, we added 10 new indicators, mostly in the security and reliability standards, to better capture if teams are following our security and reliability best practices.\n"
+    },
+    {
+      "type": "paragraph",
+      "id": "767c2ccebf58ff35",
+      "text": "Each team member independently scored their team for each indicator, rating how true the indicator is for their team on a scale from 1 to 5: never (1), rarely (2), sometimes (3), often (4), and always (5). Then the team came together with a trained facilitator to discuss the results and arrive at a shared understanding of the team’s situation. "
+    },
+    {
+      "type": "paragraph",
+      "id": "a3bd7018acce8b9c",
+      "text": "The discussion is where the team derives the bulk of the value from the assessment. Following the assessment, the team optionally created a health plan in a follow-up facilitated session with the same facilitator. The plans were focused on actions the team could take, changes to team working agreements, and proposals for large activities or to influence the org around the team.\n\n \n"
+    },
+    {
+      "type": "paragraph",
+      "id": "ff2d46ca0bdeb487",
+      "text": "Preserving the right amount of confidentiality was a major concern for the assessment process. There are several concerns that drove our thinking here:\n\n"
+    },
+    {
+      "type": "markdown",
+      "id": "ac82aab88998aec3",
+      "text": "- Assessment results shouldn’t be used for comparing teams\n- Team members must feel free to speak openly without fear of retaliation\n- All team members (including the manager) must understand the outcomes of the assessment \n"
+    },
+    {
+      "type": "paragraph",
+      "id": "48a45a3b20320312",
+      "text": "We settled on a pattern where the manager is absent from the room for the discussion, to create a safe space for the team members to speak, but where the facilitator recorded anonymized notes. This ensured that there was a good record of the discussion for the manager to read through and understand, and act as a seed for further discussions on the team."
+    }
+  ],
+  "journal": [
+    {
+      "type": "create",
+      "item": {
+        "title": "About Team Health Survey",
+        "story": []
+      },
+      "date": 1554341065192
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "6022b2a3a5f5ba77"
+      },
+      "id": "6022b2a3a5f5ba77",
+      "type": "add",
+      "date": 1554341067616
+    },
+    {
+      "type": "edit",
+      "id": "6022b2a3a5f5ba77",
+      "item": {
+        "type": "paragraph",
+        "id": "6022b2a3a5f5ba77",
+        "text": "Here we describe our survey construction and application methods. Of specific interest here is the connection between practices, fluency and the indicators. I suspect we can mine material Brent already has to complete this section."
+      },
+      "date": 1554341197933
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "3207d743064f678c"
+      },
+      "id": "3207d743064f678c",
+      "type": "add",
+      "after": "6022b2a3a5f5ba77",
+      "date": 1554430686462
+    },
+    {
+      "type": "edit",
+      "id": "3207d743064f678c",
+      "item": {
+        "type": "markdown",
+        "id": "3207d743064f678c",
+        "text": "# 2017"
+      },
+      "date": 1554430707207
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "2557fbc8429a6b06"
+      },
+      "id": "2557fbc8429a6b06",
+      "type": "add",
+      "after": "3207d743064f678c",
+      "date": 1554430709987
+    },
+    {
+      "type": "edit",
+      "id": "2557fbc8429a6b06",
+      "item": {
+        "type": "paragraph",
+        "id": "2557fbc8429a6b06",
+        "text": "The assessment was based on methodology and content from the Agile Fluency Project. The AFP is the brainchild of Jim Shore and Diana Larsen. Since Jim led our org through Upscale, agile fluency thinking is deeply embedded in our org design. We started with the AFP’s agile fluency diagnosis and used that as the core of our broader team health assessment.\n\n"
+      },
+      "date": 1554430723101
+    },
+    {
+      "type": "add",
+      "id": "865f8bfc2eeba82f",
+      "item": {
+        "type": "paragraph",
+        "id": "865f8bfc2eeba82f",
+        "text": "Creating the standards and indicators\nBroadening the scope of the AFP diagnostic meant generating a lot of new content. We needed to create a full set of team health standards. To do so, we interviewed a large number of directors and vice presidents in the product org, asking them a simple question: “In your experience, what makes a team healthy?” We were sure to interview leaders in all 4 of the major legs of the product org stool: engineering, design, product management, and operations. The answers we collected were both numerous (in the low 200s) and very wide-ranging.\n\n\n"
+      },
+      "after": "2557fbc8429a6b06",
+      "date": 1554430728787
+    },
+    {
+      "type": "add",
+      "id": "ff22f6e516b81d22",
+      "item": {
+        "type": "paragraph",
+        "id": "ff22f6e516b81d22",
+        "text": "Asking teams to fill out a 200-question survey was clearly a non-starter, so we reduced the list of questions using an affinity mapping process. Affinity mapping is a great way to filter and sort a large amount of ideas to understand emergent themes. This helped us decide on not only the 64 health indicators we ended with, but also on the hierarchical grouping of the 64 indicators into 23 standards and 6 overarching themes."
+      },
+      "after": "865f8bfc2eeba82f",
+      "date": 1554430736219
+    },
+    {
+      "type": "edit",
+      "id": "3207d743064f678c",
+      "item": {
+        "type": "markdown",
+        "id": "3207d743064f678c",
+        "text": "# 2017\n[https://newrelic.jiveon.com/docs/DOC-11116 jive]"
+      },
+      "date": 1554430788340
+    },
+    {
+      "type": "edit",
+      "id": "3207d743064f678c",
+      "item": {
+        "type": "markdown",
+        "id": "3207d743064f678c",
+        "text": "# 2017"
+      },
+      "date": 1554430804802
+    },
+    {
+      "type": "edit",
+      "id": "6022b2a3a5f5ba77",
+      "item": {
+        "type": "paragraph",
+        "id": "6022b2a3a5f5ba77",
+        "text": "Here we describe our survey construction and application methods. Of specific interest here is the connection between practices, fluency and the indicators. I suspect we can mine material Brent already has to complete this section. I've drawn the following from two posts. [[https://newrelic.jiveon.com/docs/DOC-11116 jive]"
+      },
+      "date": 1554430840425
+    },
+    {
+      "type": "edit",
+      "id": "6022b2a3a5f5ba77",
+      "item": {
+        "type": "paragraph",
+        "id": "6022b2a3a5f5ba77",
+        "text": "Here we describe our survey construction and application methods. Of specific interest here is the connection between practices, fluency and the indicators. I suspect we can mine material Brent already has to complete this section. I've drawn the following from posts. [https://newrelic.jiveon.com/docs/DOC-11116 jive]"
+      },
+      "date": 1554430852857
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "7ce5f51fbc24e52a"
+      },
+      "id": "7ce5f51fbc24e52a",
+      "type": "add",
+      "after": "ff22f6e516b81d22",
+      "date": 1554430926156
+    },
+    {
+      "type": "edit",
+      "id": "7ce5f51fbc24e52a",
+      "item": {
+        "type": "markdown",
+        "id": "7ce5f51fbc24e52a",
+        "text": "# 2018"
+      },
+      "date": 1554430933070
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "eb8fe32a9bb210dc"
+      },
+      "id": "eb8fe32a9bb210dc",
+      "type": "add",
+      "after": "7ce5f51fbc24e52a",
+      "date": 1554430935916
+    },
+    {
+      "type": "edit",
+      "id": "eb8fe32a9bb210dc",
+      "item": {
+        "type": "paragraph",
+        "id": "eb8fe32a9bb210dc",
+        "text": "Since last year, we added 10 new indicators, mostly in the security and reliability standards, to better capture if teams are following our security and reliability best practices.\n"
+      },
+      "date": 1554430946400
+    },
+    {
+      "type": "add",
+      "id": "767c2ccebf58ff35",
+      "item": {
+        "type": "paragraph",
+        "id": "767c2ccebf58ff35",
+        "text": "Each team member independently scored their team for each indicator, rating how true the indicator is for their team on a scale from 1 to 5: never (1), rarely (2), sometimes (3), often (4), and always (5). Then the team came together with a trained facilitator to discuss the results and arrive at a shared understanding of the team’s situation. "
+      },
+      "after": "eb8fe32a9bb210dc",
+      "date": 1554430962231
+    },
+    {
+      "type": "add",
+      "id": "a3bd7018acce8b9c",
+      "item": {
+        "type": "paragraph",
+        "id": "a3bd7018acce8b9c",
+        "text": "The discussion is where the team derives the bulk of the value from the assessment. Following the assessment, the team optionally created a health plan in a follow-up facilitated session with the same facilitator. The plans were focused on actions the team could take, changes to team working agreements, and proposals for large activities or to influence the org around the team.\n\n \n"
+      },
+      "after": "767c2ccebf58ff35",
+      "date": 1554430979060
+    },
+    {
+      "type": "add",
+      "id": "ff2d46ca0bdeb487",
+      "item": {
+        "type": "paragraph",
+        "id": "ff2d46ca0bdeb487",
+        "text": "Preserving the right amount of confidentiality was a major concern for the assessment process. There are several concerns that drove our thinking here:\n\n"
+      },
+      "after": "a3bd7018acce8b9c",
+      "date": 1554430998733
+    },
+    {
+      "type": "add",
+      "id": "ac82aab88998aec3",
+      "item": {
+        "type": "factory",
+        "id": "ac82aab88998aec3",
+        "text": "Assessment results shouldn’t be used for comparing teams\nTeam members must feel free to speak openly without fear of retaliation\nAll team members (including the manager) must understand the outcomes of the assessment \n \n\nSome of these goals are mutually contradictory. For example, #2 suggests that we should keep the managers out of the room for the discussion, but #3 requires that the managers be present for it. To work around these constraints, we settled on a pattern where the manager is absent from the room for the discussion, to create a safe space for the team members to speak, but where the facilitator recorded anonymized notes. This ensured that there was a good record of the discussion for the manager to read through and understand, and act as a seed for further discussions on the team."
+      },
+      "after": "ff2d46ca0bdeb487",
+      "date": 1554431010227
+    },
+    {
+      "type": "edit",
+      "id": "ac82aab88998aec3",
+      "item": {
+        "type": "markdown",
+        "id": "ac82aab88998aec3",
+        "text": "- Assessment results shouldn’t be used for comparing teams\n- Team members must feel free to speak openly without fear of retaliation\n- All team members (including the manager) must understand the outcomes of the assessment \n"
+      },
+      "date": 1554431046055
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "48a45a3b20320312"
+      },
+      "id": "48a45a3b20320312",
+      "type": "add",
+      "after": "ac82aab88998aec3",
+      "date": 1554431050440
+    },
+    {
+      "type": "edit",
+      "id": "48a45a3b20320312",
+      "item": {
+        "type": "paragraph",
+        "id": "48a45a3b20320312",
+        "text": " \n\nSome of these goals are mutually contradictory. For example, #2 suggests that we should keep the managers out of the room for the discussion, but #3 requires that the managers be present for it. To work around these constraints, we settled on a pattern where the manager is absent from the room for the discussion, to create a safe space for the team members to speak, but where the facilitator recorded anonymized notes. This ensured that there was a good record of the discussion for the manager to read through and understand, and act as a seed for further discussions on the team."
+      },
+      "date": 1554431071259
+    },
+    {
+      "type": "edit",
+      "id": "48a45a3b20320312",
+      "item": {
+        "type": "paragraph",
+        "id": "48a45a3b20320312",
+        "text": "We settled on a pattern where the manager is absent from the room for the discussion, to create a safe space for the team members to speak, but where the facilitator recorded anonymized notes. This ensured that there was a good record of the discussion for the manager to read through and understand, and act as a seed for further discussions on the team."
+      },
+      "date": 1554431138985
+    },
+    {
+      "type": "edit",
+      "id": "6022b2a3a5f5ba77",
+      "item": {
+        "type": "paragraph",
+        "id": "6022b2a3a5f5ba77",
+        "text": "Here we describe our survey construction and application methods. Of specific interest here is the connection between practices, fluency and the indicators. I suspect we can mine material Brent already has to complete this section. I've drawn the following from posts. [https://newrelic.jiveon.com/docs/DOC-11116 jive] [https://newrelic.jiveon.com/docs/DOC-66051 jive]"
+      },
+      "date": 1554431179577
+    },
+    {
+      "type": "fork",
+      "date": 1556300043680
+    }
+  ]
+}
