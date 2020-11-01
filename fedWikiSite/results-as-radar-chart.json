@@ -1,0 +1,72 @@
+{
+  "title": "Results as Radar Chart",
+  "story": [
+    {
+      "type": "paragraph",
+      "id": "64b4359920e7f619",
+      "text": "Open [[Results by Theorem]] then this chart."
+    },
+    {
+      "type": "radar",
+      "id": "d4041124d849e461",
+      "text": "25"
+    },
+    {
+      "type": "paragraph",
+      "id": "730aafb3dc80c829",
+      "text": "Showing percent of maximum. See [[About Radar Plugin]]"
+    }
+  ],
+  "journal": [
+    {
+      "type": "create",
+      "item": {
+        "title": "Results as Radar Chart",
+        "story": []
+      },
+      "date": 1556321568066
+    },
+    {
+      "type": "add",
+      "item": {
+        "type": "paragraph",
+        "id": "64b4359920e7f619",
+        "text": "Open [[Woods v. Team Health]] then this chart."
+      },
+      "id": "64b4359920e7f619",
+      "date": 1556321641501
+    },
+    {
+      "type": "edit",
+      "id": "64b4359920e7f619",
+      "item": {
+        "type": "paragraph",
+        "id": "64b4359920e7f619",
+        "text": "Open [[Results by Theorem]] then this chart."
+      },
+      "date": 1556321658577
+    },
+    {
+      "type": "add",
+      "item": {
+        "type": "radar",
+        "id": "d4041124d849e461",
+        "text": "25"
+      },
+      "after": "64b4359920e7f619",
+      "id": "d4041124d849e461",
+      "date": 1556321671239
+    },
+    {
+      "type": "add",
+      "item": {
+        "type": "paragraph",
+        "id": "730aafb3dc80c829",
+        "text": "Showing percent of maximum. See [[About Radar Plugin]]"
+      },
+      "after": "d4041124d849e461",
+      "id": "730aafb3dc80c829",
+      "date": 1556321674733
+    }
+  ]
+}
