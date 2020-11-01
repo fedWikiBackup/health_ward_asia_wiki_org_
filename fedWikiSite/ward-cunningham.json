@@ -1,0 +1,177 @@
+{
+  "title": "Ward Cunningham",
+  "story": [
+    {
+      "type": "paragraph",
+      "id": "fd0f5d63c2d937da",
+      "text": "I am a two-time team health assessor where I facilitated the survey and following discussion for about ten teams each year. I am a fan of the process which is sufficiently methodical to help teams immediately and provide management with longitudinal perspectives."
+    },
+    {
+      "type": "markdown",
+      "id": "b58042575f6fc641",
+      "text": "# Related"
+    },
+    {
+      "type": "reference",
+      "id": "e655ee910df3460d",
+      "site": "health.ward.asia.wiki.org",
+      "slug": "assessing-team-health-survey",
+      "title": "Assessing Team Health Survey",
+      "text": "Here we apply the measure to a software development health survey conducted team by team on a yearly basis."
+    },
+    {
+      "type": "reference",
+      "id": "e4156cc546c1fa12",
+      "site": "norms.ward.asia.wiki.org",
+      "slug": "adaptive-nature-of-norms",
+      "title": "Adaptive Nature of Norms",
+      "text": "Here we apply the measure to the best aspects of Extreme Programming which we've described elsewhere as normative good."
+    }
+  ],
+  "journal": [
+    {
+      "type": "create",
+      "item": {
+        "title": "Ward Cunningham",
+        "story": []
+      },
+      "date": 1556317034630
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "fd0f5d63c2d937da"
+      },
+      "id": "fd0f5d63c2d937da",
+      "type": "add",
+      "date": 1556317048096
+    },
+    {
+      "type": "edit",
+      "id": "fd0f5d63c2d937da",
+      "item": {
+        "type": "paragraph",
+        "id": "fd0f5d63c2d937da",
+        "text": "I am a two-time team health assessor where I facilitated the survey and following discussion for about ten teams each time. I am a fan of the process because we have articulated what we expect "
+      },
+      "date": 1556317177278
+    },
+    {
+      "type": "edit",
+      "id": "fd0f5d63c2d937da",
+      "item": {
+        "type": "paragraph",
+        "id": "fd0f5d63c2d937da",
+        "text": "I am a two-time team health assessor where I facilitated the survey and following discussion for about ten teams each year. I am a fan of the process which is sufficiently methodical to be both helpful to teams and providing longitudinal perspectives to management."
+      },
+      "date": 1556317313390
+    },
+    {
+      "type": "add",
+      "id": "cd29827d29e1fb98",
+      "item": {
+        "type": "paragraph",
+        "id": "cd29827d29e1fb98",
+        "text": "See [[About Team Health Survey]]"
+      },
+      "after": "fd0f5d63c2d937da",
+      "date": 1556317388706
+    },
+    {
+      "type": "add",
+      "id": "b58042575f6fc641",
+      "item": {
+        "type": "paragraph",
+        "id": "b58042575f6fc641",
+        "text": "# Related"
+      },
+      "after": "cd29827d29e1fb98",
+      "date": 1556336152079
+    },
+    {
+      "type": "edit",
+      "id": "b58042575f6fc641",
+      "item": {
+        "type": "markdown",
+        "id": "b58042575f6fc641",
+        "text": "# Related"
+      },
+      "date": 1556336154481
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "e4156cc546c1fa12"
+      },
+      "id": "e4156cc546c1fa12",
+      "type": "add",
+      "after": "b58042575f6fc641",
+      "date": 1556336156498
+    },
+    {
+      "type": "edit",
+      "id": "e4156cc546c1fa12",
+      "item": {
+        "type": "reference",
+        "id": "e4156cc546c1fa12",
+        "site": "norms.ward.asia.wiki.org",
+        "slug": "adaptive-nature-of-norms",
+        "title": "Adaptive Nature of Norms",
+        "text": "We're inspired by David Woods' Theory of Graceful Extensibility and have attempted to use it as a yardstick for measuring the long-term adaptability of systems. Here we apply the measure to the best aspects of Extreme Programming which we've described elsewhere as normative good."
+      },
+      "date": 1556336164908
+    },
+    {
+      "type": "edit",
+      "id": "e4156cc546c1fa12",
+      "item": {
+        "type": "reference",
+        "id": "e4156cc546c1fa12",
+        "site": "norms.ward.asia.wiki.org",
+        "slug": "adaptive-nature-of-norms",
+        "title": "Adaptive Nature of Norms",
+        "text": "Here we apply the measure to the best aspects of Extreme Programming which we've described elsewhere as normative good."
+      },
+      "date": 1556336175718
+    },
+    {
+      "type": "add",
+      "item": {
+        "type": "reference",
+        "id": "e655ee910df3460d",
+        "site": "health.ward.asia.wiki.org",
+        "slug": "assessing-team-health-survey",
+        "title": "Assessing Team Health Survey",
+        "text": "Here we apply the measure to a software development health survey conducted team by team on a yearly basis."
+      },
+      "after": "b58042575f6fc641",
+      "id": "e655ee910df3460d",
+      "date": 1556336339209
+    },
+    {
+      "type": "remove",
+      "id": "cd29827d29e1fb98",
+      "date": 1556336343273
+    },
+    {
+      "type": "edit",
+      "id": "fd0f5d63c2d937da",
+      "item": {
+        "type": "paragraph",
+        "id": "fd0f5d63c2d937da",
+        "text": "I am a two-time team health assessor where I facilitated the survey and following discussion for about ten teams each year. I am a fan of the process which is sufficiently methodical to help teams immediately and provide management longitudinal perspectives."
+      },
+      "date": 1556336490050
+    },
+    {
+      "type": "edit",
+      "id": "fd0f5d63c2d937da",
+      "item": {
+        "type": "paragraph",
+        "id": "fd0f5d63c2d937da",
+        "text": "I am a two-time team health assessor where I facilitated the survey and following discussion for about ten teams each year. I am a fan of the process which is sufficiently methodical to help teams immediately and provide management with longitudinal perspectives."
+      },
+      "date": 1556336515410
+    }
+  ]
+}
